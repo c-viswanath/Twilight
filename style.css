@@ -5,6 +5,9 @@ body {
     line-height: 150%;
 
 }
+.loginbuttons{
+    margin-left: 80%;
+}
   
 section {
     color: #fff;
@@ -49,3 +52,4 @@ h1 {
 .options-homepage-container{
     padding-left: 25%;
 }
+

@@ -4,24 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,900;1,200;1,700&display=swap" rel="stylesheet">
     <title>Signup</title>
 </head>
 <body>
     <div class="container">
+        <p>SIGNUP</p>
         <form action="song.php" method = 'POST'>
-            <label>First Name:<input type="text" name="fname" id="#fname"></label>
+            
+            <label><input type="text" placeholder="First Name" name="fname" id="inputfield"></label>
             <br>
-            <label>Last Name:<input type="text" name="lname" id="#lname"></label>
+            <label><input type="text" placeholder="Last Name" name="lname" id="inputfield"></label>
             <br>
-            <label>Username:<input type='text' name='Username' id='Username'></label>
+            <label><input type='text' placeholder="Username" name='Username' id="inputfield"></label>
             <br>
-            <label>Password:<input type="password" name="password" id="#password"></label>
+            <label><input type="password" placeholder="Password" name="password" id="inputfield"></label>
             <br>
-            <label>Retype Password:<input type="password" name="password" id="#password"></label>
+            <label><input type="password" placeholder="Retype Password" name="password" id="inputfield"></label>
             <br>
-            <label>Email:<input type = 'Email' name = 'Email' id = 'Email'></label>
+            <label><input type = 'Email' placeholder="Email" name = 'Email' id="inputfield"></label>
             <br>
-            <input type="submit" value="LOGIN" >
+            <input type="submit" value="LOGIN" id="submitbutton" >
         </form>
     </div>
 </body>
